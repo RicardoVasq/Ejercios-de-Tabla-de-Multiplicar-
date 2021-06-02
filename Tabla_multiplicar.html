@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tablas de multiplicar - Asignación 2</title>
+</head>
+<script src="codigo.js" type="text/javascript"></script>
+    
+    <body>
+      <h1 class="titulo1">Tablas de multiplicar</h1>
+        <p class ="editor">por Ricardo A. Vásquez</p>
+        <h3 class="indicacion">La siguiente pagina genera las tablas de multiplicar, hasta el numero que usted indique a continucion:</h3>
+      <form class="formulario">
+        <b class="etiqueta"> Digite numero: </b>
+        <br/>
+        <input class = "entrada" id="numero1" type="number" min="0" />
+        <br/><br/>
+        <input class="boton" type="button" value="Mostrar" onclick="mostrar()" /><br/>
+      </form>
+      <div class="encabezado_tablas" id="titulo"></div>
+      <div class="contenedor" id="resultado">
+      </div>
+    </body>
+
+
+</body>
+</html>
